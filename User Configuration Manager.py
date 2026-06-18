@@ -42,5 +42,4 @@ def view_settings(settings_dict):
         for key, value in settings_dict.items():
             result += f"{key.capitalize()}: {value}\n"
         return result
-add_setting(test_settings, ('Profile', 'Gaming'))
 print(view_settings(test_settings))
